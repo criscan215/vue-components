@@ -1,0 +1,104 @@
+*{
+  text-align: justify;
+  font-family: 'Song Myung', serif;
+}
+.coordinates {
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  position: absolute;
+  bottom: 40px;
+  left: 10px;
+  padding:5px 10px;
+  margin: 0;
+  font-size: 11px;
+  line-height: 18px;
+  border-radius: 3px;
+  display: none;
+}
+/*#nav-mobile{}*/
+ul li a , .navigate i{
+  color: black !important;
+  font-size: 16px !important;
+}
+.slider{
+  /*position: relative;*/
+  z-index: -1;
+}
+.sidenav-trigger {
+  color: black !important;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+
+}
+
+p{
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+/*  .slider{
+    display: inline-block;
+   
+  }
+  .descri p{
+    display: none;
+  }*/
+  #nav-mobile{
+    transition: 0.5s;
+    border: 1px solid black;
+  }
+
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.ir-arriba {
+  
+  padding:20px;
+  background:#024959;
+  font-size:20px;
+  color:#fff;
+  cursor:pointer;
+  position: fixed;
+  bottom:20px;
+  right:20px;
+}
